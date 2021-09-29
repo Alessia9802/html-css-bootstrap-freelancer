@@ -12,11 +12,18 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Bootstrap Freelancer</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <!-- Content here -->
       <div class="row bg_color first">
         <!-- nav_bar -->
@@ -39,11 +46,17 @@
       </div>
       <div class="row bg_color center green">
         <!-- hero_image -->
+
         <div class="col-2 pad"></div>
         <div class="col-8 pad">
           <img class="avatar" src="./img/avatar.svg" alt="" />
           <h1>Start Bootstrap</h1>
-          <class class="fa fa-star-half-full"></class></i>
+          <div class="separatore pad">
+            <div class="linea"></div>
+            <i class="fas fa-star"></i>
+            <div class="linea"></div>
+          </div>
+
           <div><span>Graphic artist - Web designer - Illustrator</span></div>
         </div>
         <div class="col-2 pad"></div>
@@ -52,78 +65,156 @@
         <!-- portfolio -->
         <div class="col-12 pad">
           <h1>Portfolio</h1>
+          <div class="separatore pad blue">
+            <div class="linea_blue"></div>
+            <i class="fas fa-star"></i>
+            <div class="linea_blue"></div>
+          </div>
         </div>
       </div>
       <div class="row bg_color">
         <!-- portfolio_3_columns -->
-        <div class="col-4 pad_margin"><img class="img" src="./img/cabin.png" alt=""></div>
-        <div class="col-4 pad_margin"><img class="img" src="./img/cake.png" alt=""></div>
-        <div class="col-4 pad_margin"><img class="img" src="./img/circus.png" alt=""></div>
+
+        <div class="col-4 pad_margin">
+          <img class="img" src="./img/cabin.png" alt="" />
+        </div>
+        <div class="col-4 pad_margin">
+          <img class="img" src="./img/cake.png" alt="" />
+        </div>
+        <div class="col-4 pad_margin">
+          <img class="img" src="./img/circus.png" alt="" />
+        </div>
       </div>
       <div class="row bg_color">
         <!-- portfolio_3_columns -->
-        <div class="col-4 pad_margin"><img class="img" src="./img/game.png" alt=""></div>
-        <div class="col-4 pad_margin"><img class="img" src="./img/safe.png" alt=""></div>
-        <div class="col-4 pad_margin"><img class="img" src="./img/submarine.png" alt=""></div>
+        <div class="col-4 pad_margin">
+          <img class="img" src="./img/game.png" alt="" />
+        </div>
+        <div class="col-4 pad_margin">
+          <img class="img" src="./img/safe.png" alt="" />
+        </div>
+        <div class="col-4 pad_margin">
+          <img class="img" src="./img/submarine.png" alt="" />
+        </div>
       </div>
       <div class="row bg_color">
         <!-- About -->
         <div class="col-12 pad green">
           <h1>About</h1>
+          <div class="separatore pad">
+            <div class="linea"></div>
+            <i class="fas fa-star"></i>
+            <div class="linea"></div>
+          </div>
         </div>
       </div>
       <div class="row bg_color green">
         <!-- about_2_columns -->
         <div class="col-3 pad"></div>
-        <div class="col-3 pad_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias architecto accusamus repellendus dignissimos iste! Nisi error a vitae et? Animi laborum doloribus eos eveniet sequi quia ea nostrum soluta. Aliquid deleniti, accusamus in voluptates nemo sint, sed voluptatum magni quidem inventore ad consequatur.</div>
-        <div class="col-3 pad_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod maiores neque iusto distinctio quae eveniet animi odio esse. Iusto molestias saepe perferendis maxime rem, aliquid voluptas, sed, unde beatae modi eius necessitatibus esse corrupti alias adipisci sit impedit. </div>
+        <div class="col-3 pad_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+          architecto accusamus repellendus dignissimos iste! Nisi error a vitae
+          et? Animi laborum doloribus eos eveniet sequi quia ea nostrum soluta.
+        </div>
+        <div class="col-3 pad_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod
+          maiores neque iusto distinctio quae eveniet animi odio esse. Iusto
+          molestias saepe perferendis maxime rem, aliquid voluptas, sed,
+        </div>
         <div class="col-3 pad"></div>
       </div>
       <div class="row bg_color green">
-        <div class="col-12 pad ">
-           <!-- download -->
-          <button type="button" class="btn btn-outline-light">Download<i class="fas fa-download"></i></button>
+        <div class="col-12 pad">
+          <!-- download -->
+          <button type="button" class="btn btn-outline-light">
+            <i class="fas fa-download"></i>
+            Download
+          </button>
         </div>
-
-       
       </div>
       <div class="row bg_color">
         <div class="col-12 pad">
           <h1>Contact me</h1>
+          <div class="separatore pad blue">
+            <div class="linea_blue"></div>
+            <i class="fas fa-star"></i>
+            <div class="linea_blue"></div>
+          </div>
         </div>
         <!-- contact me -->
       </div>
       <div class="row bg_color">
         <!-- form_contact -->
         <div class="col-2 pad"></div>
-        <div class="col-8 pad"><form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form></div>
+        <div class="col-8 pad_text">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
         <div class="col-2 pad"></div>
       </div>
-      <div class="row bg_color">
+      <div class="row bg_color bg_light">
         <!-- footer_3 columns -->
-        <div class="col-4 pad">Lorem.</div>
-        <div class="col-4 pad">Doloremque?</div>
-        <div class="col-4 pad">Odit?</div>
+        <div class="col-4 pad white">
+          <span>LOCATION</span><br />
+          <span>2215 John Daniel Drive Clark, MO</span><br />
+          <span>5423</span>
+        </div>
+        <div class="col-4 pad white">
+          <p>AROUND THE WEB</p>
+          <div>
+            <span class="circle"><i class="fab fa-facebook-f icon"></i></span>
+            <span class="circle"><i class="fab fa-google-plus-g"></i></span>
+            <span class="circle"><i class="fab fa-twitter"></i></span>
+            <span class="circle"><i class="fab fa-linkedin-in"></i></span>
+          </div>
+        </div>
+        <div class="col-4 pad white">
+          <p>ABOUT FREELANCER</p>
+          <p>
+            Freelance is a free to use, open source of Bootstrap theme created
+            by <span class="text_green">Start Bootstrap.</span>
+          </p>
+        </div>
       </div>
-      <div class="row bg_color">
-        <div class="col-12 pad">
+      <div class="row bg_color bg_dark">
+        <div class="col-12 pad white">
           <!-- copyright -->
-          <p>Copyright</p>
+          <p>Copyright © Your website 2019</p>
         </div>
       </div>
     </div>
