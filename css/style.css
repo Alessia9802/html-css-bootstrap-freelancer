@@ -2,18 +2,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.b_ground {
+.b_ground,
+.all {
   background-color: #2c3e50;
   color: white;
 }
 
-.flex {
-  display: flex;
-
-.met_back {
-  border: 1px solid white;
+.start {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.navbar-light > .navbar-brand.start_boot {
+.white {
+  text-transform: uppercase;
+  font-weight: bold;
   color: white;
+  font-size: 12px;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 20%;
+}
+
+.img_all {
+  background-color: #1abc9c;
+  justify-content: center;
+  align-items: center;
 }
