@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.b_ground {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.flex {
+  display: flex;
+
+.met_back {
+  border: 1px solid white;
+}
+
+.navbar-light > .navbar-brand.start_boot {
+  color: white;
+}
