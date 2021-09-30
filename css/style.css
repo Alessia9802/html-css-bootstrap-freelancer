@@ -30,10 +30,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg_color {
-  /* border: 1px solid black; */
-}
-
 #navbarNav {
   justify-content: end;
 }
@@ -118,6 +114,7 @@ h1 {
 }
 
 .linea {
-  width: 100px;
-  border: 1px solid white;
+  width: 200px;
+  height: 50px;
+  border: white;
 }
