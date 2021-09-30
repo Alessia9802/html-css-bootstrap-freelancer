@@ -1,3 +1,21 @@
+.bg_col {
+  background-color: rgb(127, 140, 255);
+}
+
+.bg_color {
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }

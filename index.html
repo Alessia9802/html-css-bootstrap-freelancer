@@ -23,12 +23,81 @@
     <title>Bootstrap Freelancer</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <body>
+    <div class="container-fluid bg_col">
+      <div class="container">
+        <div class="col-12 bg_color">
+          <!-- Nav tabs -->
+          <nav class="navbar navbar-expand-md navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">Navbar</span>
+              <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Active</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 bg_color center">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi non atque
+      quis eaque accusantium cumque corrupti neque itaque laudantium porro!
+    </div>
+
+    <div class="col-12 bg_color">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="col-12 bg_color center">
+      <div class="col-4 bg_color">Lorem.</div>
+      <div class="col-4 bg_color">Lorem.</div>
+      <div class="col-4 bg_color">Lorem.</div>
+    </div>
+
+    <div class="col-12 bg_color center">
+      <div class="col-4 bg_color">Lorem.</div>
+      <div class="col-4 bg_color">Lorem.</div>
+      <div class="col-4 bg_color">Lorem.</div>
+    </div>
+    <div class="col-12 bg_color">
+      <h1>About</h1>
+      <div class="col-12 bg_color center"></div>
+    </div>
+    <div class="container">
       <!-- Content here -->
       <div class="row bg_color first">
         <!-- nav_bar -->
-        <div class="col-6 left start">Start Bootsrap</div>
-        <div class="col-6 left">
+        <div class="col-xs-6 left start">Start Bootsrap</div>
+        <div class="col-xs-6 left">
           <ul class="nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
@@ -48,7 +117,7 @@
         <!-- hero_image -->
 
         <div class="col-2 pad"></div>
-        <div class="col-8 pad">
+        <div class="col-xs-8 col-md-8 pad">
           <img class="avatar" src="./img/avatar.svg" alt="" />
           <h1>Start Bootstrap</h1>
           <div class="separatore pad">
@@ -111,7 +180,7 @@
       <div class="row bg_color green">
         <!-- about_2_columns -->
         <div class="col-3 pad"></div>
-        <div class="col-3 pad_text">
+        <div class="col-3 col-md-12 col-xs-1 pad_text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
           architecto accusamus repellendus dignissimos iste! Nisi error a vitae
           et? Animi laborum doloribus eos eveniet sequi quia ea nostrum soluta.
@@ -189,12 +258,12 @@
       </div>
       <div class="row bg_color bg_light">
         <!-- footer_3 columns -->
-        <div class="col-4 pad white">
+        <div class="col-xs-4 pad white">
           <span>LOCATION</span><br />
           <span>2215 John Daniel Drive Clark, MO</span><br />
           <span>5423</span>
         </div>
-        <div class="col-4 pad white">
+        <div class="col-xs-4 pad white">
           <p>AROUND THE WEB</p>
           <div>
             <span class="circle"><i class="fab fa-facebook-f icon"></i></span>
@@ -203,7 +272,7 @@
             <span class="circle"><i class="fab fa-linkedin-in"></i></span>
           </div>
         </div>
-        <div class="col-4 pad white">
+        <div class="col-xs-4 pad white">
           <p>ABOUT FREELANCER</p>
           <p>
             Freelance is a free to use, open source of Bootstrap theme created
@@ -212,7 +281,7 @@
         </div>
       </div>
       <div class="row bg_color bg_dark">
-        <div class="col-12 pad white">
+        <div class="col-12 col-sm-12 pad white">
           <!-- copyright -->
           <p>Copyright © Your website 2019</p>
         </div>
