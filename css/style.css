@@ -104,16 +104,36 @@ h1 {
   width: 30%;
 }
 
-.img {
-  width: 80%;
-  border-radius: 20px;
-}
-
-.separatore {
-  display: flex;
-}
-
 .linea {
   width: 200px;
   border: 1px solid white;
+}
+
+.copyright {
+  color: white;
+}
+
+.pad {
+  padding: 1rem;
+}
+
+.align {
+  text-align: center;
+  color: white;
+}
+
+.circle {
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.icon {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.icon1 {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
 }
